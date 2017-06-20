@@ -1,0 +1,51 @@
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  border-style: none;
+}
+
+select {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  text-transform: none;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+@sm-min : 768px;
+@md-min : 992px;
+@lg-min : 1200px;
+
+@xs-max : (@sm-min - 1);
+@sm-max : (@md-min - 1);
+@md-max : (@lg-min - 1);
+
+@phone   : ~"only screen and (max-width: @{xs-max})";
+@tablet  : ~"only screen and (min-width: @{sm-min}) and (max-width: @{sm-max})";
+@desktop : ~"only screen and (min-width: @{md-min}) and (max-width: @{md-max})";
+@large   : ~"only screen and (min-width: @{lg-min})";
+
+@background-color: rgb(255, 255, 255);
+
+.fontBase() {
+	font-family: OpenSans, Verdana, Arial, sans-serif;
+	font-size: 16px;
+} 
+
+.max-size() {
+	max-width: 100%;
+	max-height: 100%;
+}
