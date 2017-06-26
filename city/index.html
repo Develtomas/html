@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="/distr/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/distr/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="/distr/css/main.css">
+			
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+	</script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+	<title>TestCity</title>
+</head>
+<body>
+	<!--modal-->
+	<div 
+		class="modal fade" 
+		id="modal" 
+		tabindex="-1" 
+		role="dialog" 
+		aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      	<div class="modal-body">
+				<div class="modal_header">External link</div>
+				<div class="close_button" data-dismiss="modal"></div>
+				<div class="modal_text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+					officia deserunt mollit anim id est laborum. Sed ut perspiciatis 
+					unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+					totam rem aperiam, eaque ipsa quae ab illo
+				</div>
+				<button type="button" class="accept">Accept</button>
+				<button 
+					type="button" 
+					data-dismiss="modal"
+					class="cancel">
+					Cancel
+				</button>
+			</div>
+	    </div>
+	  </div>
+	</div>
+	<!--end modal-->
+	<header class="site_header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-lg-6">
+					<header>Banner header</header>
+					<span class="header_text"> Lorem ipsum dolor sit amet, 
+						consectetur adipisicing elit, sed
+						do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud
+					</span>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-lg-3 col-lg-offset-2">
+					<form action="#" id="form_request">
+						<span class="form_header">Request form</span>
+						<div class="placeholder mail_field">Enter your email</div>
+						<input 
+							name="email"
+							type="text"
+							data-placement="bottom">
+						<div class="placeholder name_field">Enter your name</div>
+						<input 
+							name="name"
+							type="text"
+							data-placement="bottom">
+						<select 
+							name="country" 
+							class="country"
+							data-placement="bottom">
+							<option value="default" selected disabled>Select your country</option>
+							<option value="Honduras">Honduras</option>
+							<option value="Hispania">Hispania</option>
+						</select>
+						<input 
+							type="checkbox" 
+							id="checkbox"
+							name="agreement">
+						<label for="checkbox" data-placement="bottom"></label>
+						<button type="submit" value="Submit">Submit</button>
+						<button disabled value="Hyperlink">Hyperlink</button>
+					</form>
+				</div>
+				<div class="visible-lg-1"></div>
+			</div>
+		</div>
+	</header>
+	<main class="site_main">
+		<div class="container">
+			<div class="row first_row">
+				<div class="col-xs-12 col-sm-4 post post1">
+					<span class="pic-caption">
+		        		<span class="post_title">Post header 1</span>
+						<span class="post_img"></span><br>
+		        		<span class="post_text">Hi, this is a simple example</span>
+		    		</span>
+				</div>
+				<div class="col-xs-12 col-sm-4 post post2">
+					<span class="pic-caption">
+		        		<span class="post_title">Post header 2</span>
+						<span class="post_img"></span><br>
+		        		<span class="post_text">Lorem ipsum dolor sit amet, 
+							consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+							nostrud exercitation ullamco laboris nisi ut 
+							aliquip ex ea commodo consequat. 
+						</span>
+		    		</span>
+				</div>
+				<div class="col-xs-12 col-sm-4 post post3">
+					<span class="pic-caption">
+		        		<span class="post_title">Post header 3</span>
+						<span class="post_img"></span><br>
+		        		<span class="post_text">Hi, this is a simple example</span>
+		    		</span>
+				</div>
+			</div>
+			<div class="row second_row">
+				<div class="col-xs-12 col-sm-6 post post4">
+					<span class="pic-caption">
+		        		<span class="post_title">Post header 4</span>
+						<span class="post_img"></span><br>
+		        		<span class="post_text">Hi, this is a simple example</span>
+		    		</span>
+				</div>
+				<div class="col-xs-12 col-sm-6 post post5">
+					<span class="pic-caption">
+		        		<span class="post_title">Post header 5</span>
+						<span class="post_img"></span><br>
+		        		<span class="post_text">Hi, this is a simple example</span>
+		    		</span>
+				</div>
+			</div>
+		</div>
+		<div class="screen">
+			<div class="container">
+				<div class="row">
+					<div class="hidden-xs hidden-sm hidden-md col-lg-6 screen_img"></div>
+					<div class="col-xs-12 col-sm-10 col-md-9 col-lg-6 screen_text">
+						<header>Title text</header>
+						<ol class="list">
+							<li data-toggle="modal" data-target="#modal">
+								Duis aute irure dolor in reprehenderit<sup>1</sup> 
+								in voluptate velit
+							</li>
+							<li data-toggle="modal" data-target="#modal">
+								Ullamco laboris nisi ut aliquip ex ea commodo consequat
+							</li>
+							<li data-toggle="modal" data-target="#modal">
+								Ut enim ad minim veniam, quis nostrud exercitation
+							</li>
+							<li data-toggle="modal" data-target="#modal">
+								Et dolore magna aliqua
+							</li>
+							<li data-toggle="modal" data-target="#modal">
+								Sed do eiusmod tempor<sup>2</sup> incididunt ut labore
+							</li>
+							<li data-toggle="modal" data-target="#modal">
+								Lorem ipsum dolor sit amet<sup>3</sup> 
+								consectetur adipisicing elit
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="site_footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="note">
+						<li><sup>1 </sup>Reprehenderit - Lorem ipsum dolor sit amet, 
+							consectetur adipisicing elit, sed 
+							do eiusmod tempor incididunt ut labore
+						</li>
+						<li><sup>2 </sup>Tempor - Ut enim ad minim veniam, 
+							quis nostrud exercitation ullamco laboris nisi ut 
+							aliquip ex ea commodo consequat.
+						</li>
+						<li><sup>3 </sup>Amet - Duis aute irure dolor in reprehenderit
+						 in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						 </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="/distr/js/bootstrap.min.js"></script>
+		<script src="/distr/js/main.js"></script>
+	</footer>
+</body>
+</html>
