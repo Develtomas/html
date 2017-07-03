@@ -67,7 +67,7 @@ body {
   opacity: 0.5;
   position: absolute;
 }
-.site_header header {
+.site_header .header_header {
   font-size: 48px;
   border-bottom: 5px solid #ffffff;
   line-height: 1;
