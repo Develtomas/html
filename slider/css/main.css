@@ -116,6 +116,10 @@ a.right .carousel-control--right {
 /* adaptive */
 
 @media (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+
 	.nav.navbar-nav {
 		margin-top: 0;
 	}
@@ -130,13 +134,13 @@ a.right .carousel-control--right {
 	}
 
 	.carousel_center_block {
-		top: 0;
-		height: 100%;
+		top: 20%;
+		height: 60%;
 		width: 100%;
 	}
 
 	.slider_text__text {
-		font-size: 17px;
+		font-size: 16px;
 		margin: 0 17px;
 	}
 
@@ -144,26 +148,32 @@ a.right .carousel-control--right {
 		font-size: 13px;
 		width: 130px;
 		height: 35px;
-		margin-top: 20px;
+		margin-top: 15px;
+	}
+
+	.logo__img {
+		margin: 5px 0 5px 20px;
+		width: 60px;
+		height: 40px;
 	}
 }
 
 @media (width: 768px) {
 	.logo__img {
-		margin: 10px 0;
+		margin: 15px 0 10px 0;
 	}
 	
 	.nav.navbar-nav {
-		margin: 20px 0 0 0;
+		margin: 10px 0 0 0;
 	}
 
 	.slider_text__text {
-		font-size: 25px;
+		font-size: 22px;
 		margin: 0 17px;
 	}
 
 	.slider_text__btn {
-		font-size: 18px;
+		font-size: 17px;
 		width: 200px;
 		height: 45px;
 		margin: 40px auto 0;
@@ -171,12 +181,16 @@ a.right .carousel-control--right {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
+	body {
+		font-size: 16px;
+	}
+
 	.logo__img {
-		margin: 10px 0;
+		margin: 10px 0 10px 120px;
 	}
 	
 	.nav.navbar-nav {
-		margin: 20px 0 0 0;
+		margin: 30px 0 0 0;
 	}
 
 	a.left .carousel-control--left,
@@ -203,9 +217,35 @@ a.right .carousel-control--right {
 	}
 }
 
+@media (min-width: 769px) and (max-width: 992px) {
+	.logo__img {
+		margin: 10px 0 10px 100px;
+		width: 90px;
+		height: 60px;
+	}
+
+	.nav.navbar-nav {
+		margin-top: 20px;
+	}
+	
+	body {
+		font-size: 15px;
+	}
+
+	.slider_text__text {
+		font-size: 25px;
+	}
+
+	.slider_text__btn {
+		font-size: 17px;
+	}
+}
+
 @media (min-width: 1201px) and (max-width: 1600px) {
 	.logo__img {
-		margin: 19px 0 19px 200px;
+		margin: 19px 0 19px 250px;
+		width: 101px;
+		height: 66px;
 	}
 
 	.nav.navbar-nav {
@@ -216,5 +256,15 @@ a.right .carousel-control--right {
 		top: 36%;
 		height: 40%;
 		width: 100%;
+	}
+
+	.slider_text__text {
+		font-size: 35px;
+	}
+
+	.slider_text__btn {
+		font-size: 20px;
+		width: 200px;
+		height: 53px;
 	}
 }
